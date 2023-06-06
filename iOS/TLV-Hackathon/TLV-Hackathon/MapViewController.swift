@@ -18,7 +18,6 @@ class MapViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Map View"
-        navigationController?.navigationBar.prefersLargeTitles = true
         setupLocationManager()
         setupMapView()
     }
@@ -47,7 +46,6 @@ class MapViewController: UIViewController {
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         locationManager.distanceFilter = kCLDistanceFilterNone
         locationManager.startUpdatingLocation()
-
     }
     
     func buildPin(from place: Place) -> MKPointAnnotation {

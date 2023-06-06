@@ -56,17 +56,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UMC-XQ-fw3">
-                                <rect key="frame" x="10" y="69" width="373" height="739"/>
+                                <rect key="frame" x="0.0" y="69" width="393" height="783"/>
                                 <standardMapConfiguration key="preferredConfiguration"/>
                             </mapView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="b2K-cU-mBF"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="UMC-XQ-fw3" firstAttribute="leading" secondItem="b2K-cU-mBF" secondAttribute="leading" constant="10" id="ZSj-Tb-hFA"/>
-                            <constraint firstItem="b2K-cU-mBF" firstAttribute="bottom" secondItem="UMC-XQ-fw3" secondAttribute="bottom" constant="10" id="ddp-5h-YAW"/>
+                            <constraint firstItem="UMC-XQ-fw3" firstAttribute="leading" secondItem="b2K-cU-mBF" secondAttribute="leading" id="ZSj-Tb-hFA"/>
+                            <constraint firstAttribute="bottom" secondItem="UMC-XQ-fw3" secondAttribute="bottom" id="ddp-5h-YAW"/>
                             <constraint firstItem="UMC-XQ-fw3" firstAttribute="top" secondItem="b2K-cU-mBF" secondAttribute="top" constant="10" id="fg8-Kn-9DT"/>
-                            <constraint firstItem="b2K-cU-mBF" firstAttribute="trailing" secondItem="UMC-XQ-fw3" secondAttribute="trailing" constant="10" id="nPW-Xz-A6W"/>
+                            <constraint firstItem="b2K-cU-mBF" firstAttribute="trailing" secondItem="UMC-XQ-fw3" secondAttribute="trailing" id="nPW-Xz-A6W"/>
                         </constraints>
                     </view>
                     <connections>
