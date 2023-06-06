@@ -112,12 +112,12 @@ class MapsActivity : AppCompatActivity() {
         places.forEach { place ->
 
             Utilities.bitmapFromDrawableRes(
-                this@MapsActivity, R.mipmap.annotation
+                this@MapsActivity, R.drawable.annotation
             )?.let {
                 val pointAnnotationOptions: PointAnnotationOptions = PointAnnotationOptions()
                     .withPoint(Point.fromLngLat(place.longitude, place.latitude))
                     .withIconImage(it)
-                    .withIconOffset(listOf(0.0, -30.0))
+                    .withIconOffset(listOf(0.0, -20.0))
                     .withTextField(place.title)
                     .withTextSize(15.0)
                     .withTextColor(Color.RED)
