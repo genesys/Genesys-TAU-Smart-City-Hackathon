@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "27A312AE-2ECE-4565-9471-D773512BD1F7"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D90906E-05D3-4912-B914-4A6F5EAC27B5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TLV-Hackathon/Temp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "157"
+            endingLineNumber = "157"
+            landmarkName = "locationUpdate(newLocation:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1D90906E-05D3-4912-B914-4A6F5EAC27B5 - 5acbebee11e972de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TLV_Hackathon.CameraLocationConsumer.locationUpdate(newLocation: MapboxMaps.Location) -&gt; ()"
+                  moduleName = "TLV-Hackathon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gshovalg/Documents/Repos/Genesys-TAU-Smart-City-Hackathon/Genesys-TAU-Smart-City-Hackathon/iOS/TLV-Hackathon/TLV-Hackathon/Temp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "158"
+                  endingLineNumber = "158"
+                  offsetFromSymbolStart = "572">
+               </Location>
+               <Location
+                  uuid = "1D90906E-05D3-4912-B914-4A6F5EAC27B5 - 5acbebee11e972de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TLV_Hackathon.CameraLocationConsumer.locationUpdate(newLocation: MapboxMaps.Location) -&gt; ()"
+                  moduleName = "TLV-Hackathon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gshovalg/Documents/Repos/Genesys-TAU-Smart-City-Hackathon/Genesys-TAU-Smart-City-Hackathon/iOS/TLV-Hackathon/TLV-Hackathon/Temp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "158"
+                  endingLineNumber = "158"
+                  offsetFromSymbolStart = "592">
+               </Location>
+               <Location
+                  uuid = "1D90906E-05D3-4912-B914-4A6F5EAC27B5 - 5acbebee11e972ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TLV_Hackathon.CameraLocationConsumer.locationUpdate(newLocation: MapboxMaps.Location) -&gt; ()"
+                  moduleName = "TLV-Hackathon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gshovalg/Documents/Repos/Genesys-TAU-Smart-City-Hackathon/Genesys-TAU-Smart-City-Hackathon/iOS/TLV-Hackathon/TLV-Hackathon/Temp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "157"
+                  endingLineNumber = "157"
+                  offsetFromSymbolStart = "156">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

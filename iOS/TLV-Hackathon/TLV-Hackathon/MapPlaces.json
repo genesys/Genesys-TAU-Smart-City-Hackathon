@@ -1,0 +1,39 @@
+{
+    "places": [
+        {
+            "uuid": "c2c0b47d-9db5-4fa0-82d3-9e25d5480ebb",
+            "title": "Carmel Market",
+            "subtitle": "Vibrant marketplace in Tel Aviv",
+            "latitude": 32.0684,
+            "longitude": 34.7691
+        },
+        {
+            "uuid": "2d6a39cb-3e30-4b3b-b63f-1d3e8c8dfcc4",
+            "title": "Jaffa Port",
+            "subtitle": "Ancient port area",
+            "latitude": 32.0525,
+            "longitude": 34.7532
+        },
+        {
+            "uuid": "8c9e535a-9fba-4d7d-99f1-b487a5723c41",
+            "title": "Eretz Israel Museum",
+            "subtitle": "Archaeology and history museum",
+            "latitude": 32.1133,
+            "longitude": 34.8056
+        },
+        {
+            "uuid": "c5e44e96-31d1-4c8b-b207-09da5aae6fb1",
+            "title": "Yitzhak Rabin Center",
+            "subtitle": "Museum dedicated to the legacy of Yitzhak Rabin",
+            "latitude": 32.1044,
+            "longitude": 34.8062
+        },
+        {
+            "uuid": "6f83401b-fa67-4b3d-8cfe-92ed71c53ad9",
+            "title": "Rothschild Boulevard",
+            "subtitle": "Historic street in Tel Aviv",
+            "latitude": 32.0625,
+            "longitude": 34.7759
+        }
+    ]
+}

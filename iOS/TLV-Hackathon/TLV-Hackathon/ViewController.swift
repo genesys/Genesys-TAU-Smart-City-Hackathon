@@ -14,6 +14,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func didTapMapButton(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let viewController = storyboard.instantiateViewController(identifier: "MapViewController")
+        navigationController?.pushViewController(viewController, animated: true)
+    }
 }
-

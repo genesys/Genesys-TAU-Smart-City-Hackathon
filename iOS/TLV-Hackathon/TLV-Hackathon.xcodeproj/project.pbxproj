@@ -13,7 +13,22 @@
 		FC80B2B32A2DF7B900BB96C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC80B2B12A2DF7B900BB96C3 /* Main.storyboard */; };
 		FC80B2B52A2DF7BA00BB96C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC80B2B42A2DF7BA00BB96C3 /* Assets.xcassets */; };
 		FC80B2B82A2DF7BA00BB96C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC80B2B62A2DF7BA00BB96C3 /* LaunchScreen.storyboard */; };
+		FC80B2C02A2DF86000BB96C3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC80B2BF2A2DF86000BB96C3 /* MapViewController.swift */; };
+		FC80B2C22A2E01F400BB96C3 /* MapPlaces.json in Resources */ = {isa = PBXBuildFile; fileRef = FC80B2C12A2E01F400BB96C3 /* MapPlaces.json */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FC80B2CF2A2E499E00BB96C3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		FC80B2A82A2DF7B900BB96C3 /* TLV-Hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TLV-Hackathon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +39,8 @@
 		FC80B2B42A2DF7BA00BB96C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC80B2B72A2DF7BA00BB96C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC80B2B92A2DF7BA00BB96C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC80B2BF2A2DF86000BB96C3 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		FC80B2C12A2E01F400BB96C3 /* MapPlaces.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MapPlaces.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +76,8 @@
 				FC80B2AB2A2DF7B900BB96C3 /* AppDelegate.swift */,
 				FC80B2AD2A2DF7B900BB96C3 /* SceneDelegate.swift */,
 				FC80B2AF2A2DF7B900BB96C3 /* ViewController.swift */,
+				FC80B2BF2A2DF86000BB96C3 /* MapViewController.swift */,
+				FC80B2C12A2E01F400BB96C3 /* MapPlaces.json */,
 				FC80B2B12A2DF7B900BB96C3 /* Main.storyboard */,
 				FC80B2B42A2DF7BA00BB96C3 /* Assets.xcassets */,
 				FC80B2B62A2DF7BA00BB96C3 /* LaunchScreen.storyboard */,
@@ -77,6 +96,7 @@
 				FC80B2A42A2DF7B900BB96C3 /* Sources */,
 				FC80B2A52A2DF7B900BB96C3 /* Frameworks */,
 				FC80B2A62A2DF7B900BB96C3 /* Resources */,
+				FC80B2CF2A2E499E00BB96C3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,6 +147,7 @@
 			files = (
 				FC80B2B82A2DF7BA00BB96C3 /* LaunchScreen.storyboard in Resources */,
 				FC80B2B52A2DF7BA00BB96C3 /* Assets.xcassets in Resources */,
+				FC80B2C22A2E01F400BB96C3 /* MapPlaces.json in Resources */,
 				FC80B2B32A2DF7B900BB96C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +162,7 @@
 				FC80B2B02A2DF7B900BB96C3 /* ViewController.swift in Sources */,
 				FC80B2AC2A2DF7B900BB96C3 /* AppDelegate.swift in Sources */,
 				FC80B2AE2A2DF7B900BB96C3 /* SceneDelegate.swift in Sources */,
+				FC80B2C02A2DF86000BB96C3 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
