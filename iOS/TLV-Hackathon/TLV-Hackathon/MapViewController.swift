@@ -26,7 +26,7 @@ class MapViewController: UIViewController {
         super.viewDidAppear(animated)
         if let coordinate = locationManager.location?.coordinate {
             mapView.setCenter(coordinate, animated: true)
-            let region = mapView.regionThatFits(MKCoordinateRegion(center: coordinate, latitudinalMeters: 2000, longitudinalMeters: 2000))
+            let region = mapView.regionThatFits(MKCoordinateRegion(center: coordinate, latitudinalMeters: 10000, longitudinalMeters: 10000))
             mapView.setRegion(region, animated: true)
         }
     }
@@ -39,6 +39,13 @@ class MapViewController: UIViewController {
             pins = Dictionary(uniqueKeysWithValues: newPlaces)
             mapView.addAnnotations(Array(pins.values))
         }
+    }
+    
+    func updatePin(value: MKPointAnnotation, uuid: String) {
+        /// Get pin from pins using the uuid
+        /// remove annotation from mapView
+        /// update pin coordinate using value given as parameter
+        /// add annotation back to mapView
     }
     
     func setupLocationManager() {

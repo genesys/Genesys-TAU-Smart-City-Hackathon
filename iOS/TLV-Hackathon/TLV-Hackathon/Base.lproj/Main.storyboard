@@ -45,7 +45,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="968.70229007633588" y="-27.464788732394368"/>
+            <point key="canvasLocation" x="784" y="-27"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="brE-Jh-HEp">
@@ -59,10 +59,20 @@
                                 <rect key="frame" x="0.0" y="69" width="393" height="783"/>
                                 <standardMapConfiguration key="preferredConfiguration"/>
                             </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H6Y-rN-T5O">
+                                <rect key="frame" x="308" y="69" width="75" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="updatePin:" destination="fgU-3n-1jH" eventType="touchUpInside" id="oju-dS-mgY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="b2K-cU-mBF"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="b2K-cU-mBF" firstAttribute="trailing" secondItem="H6Y-rN-T5O" secondAttribute="trailing" constant="10" id="CC2-gl-2Bh"/>
+                            <constraint firstItem="H6Y-rN-T5O" firstAttribute="top" secondItem="b2K-cU-mBF" secondAttribute="top" constant="10" id="XZF-Zq-UDN"/>
                             <constraint firstItem="UMC-XQ-fw3" firstAttribute="leading" secondItem="b2K-cU-mBF" secondAttribute="leading" id="ZSj-Tb-hFA"/>
                             <constraint firstAttribute="bottom" secondItem="UMC-XQ-fw3" secondAttribute="bottom" id="ddp-5h-YAW"/>
                             <constraint firstItem="UMC-XQ-fw3" firstAttribute="top" secondItem="b2K-cU-mBF" secondAttribute="top" constant="10" id="fg8-Kn-9DT"/>
@@ -75,7 +85,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qpj-vq-mbN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1894" y="-27"/>
+            <point key="canvasLocation" x="1547" y="-27"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="yYY-Kc-iUy">
