@@ -22,7 +22,7 @@ class MapViewController: UIViewController {
         setupMapView()
     }
     
-    override func viewWillAppear(_ animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         if let coordinate = locationManager.location?.coordinate {
             mapView.setCenter(coordinate, animated: true)
