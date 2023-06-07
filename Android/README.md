@@ -28,6 +28,4 @@ The Genesys-TAU-Smart-City-Hackathon app offers the following features:
 * Handle the result of permission requests.
 
 ## App screenshots
-
-![Screenshot-20230606-145359](https://github.com/genesys/Genesys-TAU-Smart-City-Hackathon/assets/113455277/b68f5625-f844-49b8-87f2-1b9c0686884d)
-![Screenshot-20230606-145447](https://github.com/genesys/Genesys-TAU-Smart-City-Hackathon/assets/113455277/83d0d05e-2a9b-4719-acc7-e0706c521229)
+<img width="563" alt="Screenshot 2023-06-07 at 18 57 51" src="https://github.com/genesys/Genesys-TAU-Smart-City-Hackathon/assets/113455277/cfac65a7-311d-4949-b937-06011dd1163c">
