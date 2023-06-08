@@ -1,4 +1,4 @@
-# Genesys-TAU-Smart-City-Hackathon Android App
+# Genesys-TAU-Smart-City-Hackathon iOS App
 
 Welcome to the Genesys-TAU-Smart-City-Hackathon iOS app repository! This app serves as a skeleton for students participating in the hackathon, providing a foundation for developing their innovative solutions to the smart city challenges.
 
